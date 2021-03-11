@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>Start An Auction</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styleE.css">
+</head>
+<body>
+	<div class= "Start">
+		<h2>Start An Auction</h2>
+		<form id= "Start" method= "post" action= "Start.php">
+			<label><b>Enter information about the asset  </b></label>
+			<input type= "text" name= "Einfo" id= "Einfo" placeholder= "Enter information about the asset">
+			<br><br>
+			<label><b>Choose Auction Type : </b></label>
+			<label>English Auction </label>
+			<input type= "checkbox" name= "English" id= "English" placeholder= "English Auction"> &nbsp
+			<label>Dutch Auction </label>
+			<input type= "checkbox" name= "Dutch" id= "Dutch" placeholder = "Dutch Auction">
+			<br><br>
+			<label><b>Set minimum price for the asset  </b></label>
+			<input type= "text" name= "min" id= "min" placeholder= "Minimum Price">
+			<br><br>
+			<label><b>Enter the number of rounds  </b></label>
+            <input type= "text" name ="rounds" id= "rounds" placeholder= "Rounds">
+            <br><br>
+            <label><b>Allocate the time for each round  </b></label>
+			<input type= "text" name= "time" id= "time" placeholder= "Enter Time (in minutes)">
+			<br><br>
+    		Select image to upload: &nbsp
+    		<input type="file" name="fileToUpload" id="fileToUpload"> &nbsp
+    		<input type="submit" style="align-items: center;" value="Upload Image" name="submit">
+    		<br><br>
+    		<button type="submit">Submit</button>
+		</form>
+	</div>
+
+</body>

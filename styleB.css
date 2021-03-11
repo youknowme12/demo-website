@@ -1,0 +1,152 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto";
+}
+
+img {
+	opacity: 0.6;
+	width: 100%;
+	height: 100%;
+}
+
+.login-in {
+	background-color: rgb(0,0,0,0.8);
+	width: 400px;
+	height: 420px;
+	color: #000;
+	top: 50%;
+	left: 50%;
+	padding: 60px 30px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	box-shadow: 8px 8px 50px #000;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 35px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 8%;
+	font-family: Roboto;
+}
+
+.login-in input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.login-in input[type=text], .login-in input[type=password] {
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	font-size: 20px;
+	opacity: 1;
+	color: #ccc;
+}
+
+
+.login-in input[type=submit] {
+	border: none;
+	background: green;
+	outline: none;
+	height: 40px;
+	font-size: 20px;
+	opacity: 1;
+	color: #fff;
+	font-weight: bold;
+}
+
+.login-in input[type=submit]:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+.login-in a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+	opacity: 0.8;
+}
+
+.login-in a:hover {
+	color: #fff;
+	opacity: 1;
+}
+
+.bottom-text {
+	color: #fff;
+}
+
+.bottom-text input{
+	width: 10%;
+	float: left;
+}
+
+.bottom-text a {
+	float: right;
+}
+
+#overlay-area {
+	position: absolute;
+	background-color: rgba(0,0,0,0.4);
+	z-index: -5;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: "16.jpg";
+	font-family: "Roboto";
+}
+
+p {
+	font-size: 60px;
+	text-align: center;
+	margin: 50px;
+	color: green;
+	opacity: 0.8;
+}
+
+
